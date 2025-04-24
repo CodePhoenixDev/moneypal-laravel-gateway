@@ -4,10 +4,11 @@
   "type": "library",
   "keywords": ["laravel", "payment", "gateway", "money", "moneypal"],
   "license": "MIT",
+  "version": "1.0.0",
   "authors": [
     {
-      "name": "Your Name",
-      "email": "your-email@example.com"
+      "name": "Kamyab",
+      "email": "info@kamyabhost.com"
     }
   ],
   "autoload": {
@@ -17,7 +18,7 @@
   },
   "require": {
     "php": ">=7.3",
-    "illuminate/support": "8.*|9.*|10.*"
+    "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0"
   },
   "require-dev": {
     "phpunit/phpunit": "^9.5"
