@@ -25,4 +25,7 @@ You can install the package via Composer:
 ```bash
 composer require codephoenixdev/moneypal-laravel-gateway
 
+⚙️ Configuration  
+After installing, publish the config file using:
+php artisan vendor:publish --tag="moneypal-config"
 
