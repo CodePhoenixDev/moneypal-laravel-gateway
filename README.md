@@ -26,30 +26,3 @@ You can install the package via Composer:
 composer require codephoenixdev/moneypal-laravel-gateway
 
 
-⚙️ Configuration
-After installing, publish the config file using:
-
-bash
-Copy
-Edit
-php artisan vendor:publish --tag="moneypal-config"
-Set your API keys and options in the published config file (config/moneypal.php).
-
-✅ Usage
-
-use CodePhoenixDev\MoneyPal\Facades\MoneyPal;
-
-$response = MoneyPal::pay([
-    'amount' => 10000,
-    'callback_url' => route('payment.callback'),
-    'description' => 'Order #1234',
-]);
-
-return redirect()->away($response->getRedirectUrl());
-🧪 Testing
-bash
-
-php artisan test
-
-🤝 Contributing
-Got an idea or found a bug? Feel free to fork, fix and PR. We welcome contributions!
